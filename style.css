@@ -1,9 +1,12 @@
-h1{
+h1, h2, h3, h4{
     text-align: center;
+   font-family: "Playfair display";
+  
 }
 body{
     background: linear-gradient(
-   to left,  darkseagreen, rgb(216, 233, 216))
+   to left,  darkseagreen, rgb(216, 233, 216));
+   font-family: "Roboto";
 }
 main{
     display: flex;
@@ -15,6 +18,9 @@ img{
    height: 200px;
    width: 200px;
 }
+a{
+    color: black;
+}
 .facts{
     border: 2px dotted darkseagreen;
     width:200px;
@@ -22,15 +28,17 @@ img{
     padding-left: 5px;
 }
 .recept{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     border: 2px solid rgb(103, 136, 103);
     margin: 10px;
     padding: 10px;
     width: 350px;
     background: rgb(205, 221, 205);
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 li{
     margin-bottom: 5px;
